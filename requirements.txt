@@ -1,7 +1,9 @@
 scikit-learn
 numpy
 pandas
-tensorflow
 tensorboard
 matplotlib
 streamlit
+tensorflow-cpu
+protobuf==3.20.*
+
