@@ -1,6 +1,3 @@
-import os
-os.environ["PROTOCOL_BUFFERS_PYTHON_IMPLEMENTATION"] = "python"
-
 import streamlit as st
 import numpy as np
 import tensorflow as tf
@@ -66,3 +63,4 @@ if prediction_proba > 0.5:
 else:
 
     st.write('Não Diabético')
+
