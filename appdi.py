@@ -1,3 +1,6 @@
+import os
+os.environ["PROTOCOL_BUFFERS_PYTHON_IMPLEMENTATION"] = "python"
+
 import streamlit as st
 import numpy as np
 import tensorflow as tf
@@ -61,4 +64,5 @@ st.write(f'Diabetes Probability: {prediction_proba:.2f}')
 if prediction_proba > 0.5:
     st.write('Diabético')
 else:
+
     st.write('Não Diabético')
